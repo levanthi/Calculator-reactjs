@@ -1,0 +1,29 @@
+.button {
+   font-size: 5rem;
+   cursor: pointer;
+   color: #fff;
+   border: 2px solid black;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   &:active {
+      transform: translate(1px, 1px);
+   }
+}
+
+.large {
+   padding: 30px;
+}
+
+.medium {
+   padding: 20px 12px;
+   font-size: 1.8rem;
+}
+
+.gray {
+   background-color: #474747;
+}
+
+.boldGray {
+   background-color: #292929;
+}
