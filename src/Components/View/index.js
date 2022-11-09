@@ -12,6 +12,7 @@ function View({ data }) {
    return (
       <div className={cx('view')}>
          <input
+            readOnly
             ref={inputRef}
             value={data}
             spellCheck={false}
